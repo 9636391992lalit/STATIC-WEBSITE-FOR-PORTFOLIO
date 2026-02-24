@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Developer Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand" href="#">DevName</a>
+        <button id="nav-toggle" class="nav-toggle" aria-label="Toggle navigation">☰</button>
+        <nav id="site-nav" class="site-nav">
+          <a href="#about">About</a>
+          <a href="#skills">Skills</a>
+          <a href="#projects">Projects</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="container">
+          <h1>Hello — I'm a Developer</h1>
+          <p>Building responsive web apps and clean interfaces.</p>
+          <a class="btn" href="#projects">View Projects</a>
+        </div>
+      </section>
+
+      <section id="about" class="container about">
+        <h2>About</h2>
+        <p>I craft web applications with HTML, CSS, and JavaScript. I focus on accessibility, performance, and readable code.</p>
+      </section>
+
+      <section id="education" class="container education">
+        <h2>Education</h2>
+        <div class="resume-card">
+          <h3>Indian Institute of Information Technology Senapati, Manipur</h3>
+          <p class="muted">Bachelor of Technology in Computer Science • Nov 2022 — May 2026 • CPI: 8.21</p>
+        </div>
+      </section>
+
+      <section id="skills" class="container skills">
+        <h2>Skills</h2>
+        <div class="skills-grid">
+          <div class="skill-col">
+            <h3>Programming</h3>
+            <ul class="skill-list">
+              <li class="skill-badge"><span class="dot"></span>Python</li>
+              <li class="skill-badge"><span class="dot"></span>JavaScript</li>
+              <li class="skill-badge"><span class="dot"></span>C++</li>
+              <li class="skill-badge"><span class="dot"></span>C</li>
+              <li class="skill-badge"><span class="dot"></span>SQL</li>
+            </ul>
+          </div>
+
+          <div class="skill-col">
+            <h3>Frontend</h3>
+            <ul class="skill-list">
+              <li class="skill-badge"><span class="dot"></span>React.js</li>
+              <li class="skill-badge"><span class="dot"></span>HTML5</li>
+              <li class="skill-badge"><span class="dot"></span>CSS3 / Tailwind</li>
+              <li class="skill-badge"><span class="dot"></span>Redux</li>
+              <li class="skill-badge"><span class="dot"></span>Context API</li>
+            </ul>
+          </div>
+
+          <div class="skill-col">
+            <h3>Backend & Tools</h3>
+            <ul class="skill-list">
+              <li class="skill-badge"><span class="dot"></span>Node.js</li>
+              <li class="skill-badge"><span class="dot"></span>Express.js</li>
+              <li class="skill-badge"><span class="dot"></span>REST APIs</li>
+              <li class="skill-badge"><span class="dot"></span>WebSockets</li>
+              <li class="skill-badge"><span class="dot"></span>JWT</li>
+              <li class="skill-badge"><span class="dot"></span>MongoDB / MySQL</li>
+              <li class="skill-badge"><span class="dot"></span>Cloudinary</li>
+              <li class="skill-badge"><span class="dot"></span>Git / GitHub</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section id="experience" class="container experience">
+        <h2>Experience</h2>
+        <div class="resume-card">
+          <h3>QuickIntell — Full Stack Developer Intern</h3>
+          <p class="muted">Oct 2025 — Jan 2026</p>
+          <ul class="resume-list">
+            <li>Developed scalable <strong>RESTful APIs</strong> across 8+ projects with secure authentication and module-level testing, reducing defects and improving performance.</li>
+            <li>Built and optimized <strong>AI-driven data pipelines</strong> using Flowise AI delivering 99%+ data accuracy and improved throughput.</li>
+          </ul>
+        </div>
+
+        <div class="resume-card">
+          <h3>CDAC Noida — Ethical Hacking & Penetration Testing Intern</h3>
+          <p class="muted">Dec 2024 — Jan 2025</p>
+          <ul class="resume-list">
+            <li>Hands-on security work under the Government of India Cyber Gyan Project in network security and digital forensics.</li>
+            <li>Investigated 10GB+ disk images using tools like Autopsy and FTK Imager, recovering 150+ hidden/deleted files.</li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="projects" class="container projects">
+        <h2>Projects</h2>
+        <div class="grid">
+          <article class="card">
+            <h3>Job Application Portal</h3>
+            <p class="muted">React.js, Node.js, Express, MongoDB, JWT, Socket.io, Cloudinary — Oct 2025</p>
+            <p>Full-stack job portal with JWT authentication for multiple roles, real-time updates with Socket.io, resume uploads via Cloudinary, and admin verification workflows.</p>
+            <p><a href="https://github.com/9636391992lalit/job-portal">GitHub</a> • <a href="https://job-portal-flame-zeta.vercel.app/">Live</a></p>
+          </article>
+
+          <article class="card">
+            <h3>Bookstore Application</h3>
+            <p class="muted">MongoDB, Express, React, Node, JWT, Tailwind — Nov 2024</p>
+            <p>Full-stack bookstore with role-based access, JWT security, favorites, cart, and order processing with MongoDB persistence.</p>
+            <p><a href="https://github.com/9636391992lalit/BookStore-Application">GitHub</a></p>
+          </article>
+
+          <article class="card">
+            <h3>Sorting Algorithm Visualizer</h3>
+            <p class="muted">C++, Raylib, Multithreading — Apr 2024</p>
+            <p>Interactive visualizer demonstrating Bubble, Insertion, and Quick Sort with color-coded animations and multithreaded performance improvements.</p>
+            <p><a href="https://github.com/9636391992lalit/sorting-visualizer/">GitHub</a></p>
+          </article>
+        </div>
+      </section>
+
+      <section id="achievements" class="container achievements">
+        <h2>Achievements & Certifications</h2>
+        <div class="resume-card">
+          <ul class="resume-list">
+            <li><a href="https://drive.google.com/file/d/1TDs_NmntDLTyQKcvUNasiNHcUzizqhsA/view?usp=drive_link">NPTEL – The Joy of Computing Using Python (Score: 85%)</a></li>
+            <li>2nd Position in C.P. Competition – AHOUBA’24, IIIT Manipur (Apr 2024)</li>
+            <li>Completed 500+ DSA problems on LeetCode and GeeksforGeeks.</li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="contact" class="container contact">
+        <h2>Contact</h2>
+        <form id="contact-form">
+          <label>Name<input type="text" name="name" required /></label>
+          <label>Email<input type="email" name="email" required /></label>
+          <label>Message<textarea name="message" rows="4"></textarea></label>
+          <button class="btn" type="submit">Send</button>
+        </form>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">© <span id="year"></span> DevName — Built with HTML, CSS, JS</div>
+    </footer>
+
+    <div id="modal" class="modal" aria-hidden="true">
+      <div class="modal-content">
+        <button id="modal-close" class="modal-close">×</button>
+        <h3 id="modal-title"></h3>
+        <p id="modal-desc"></p>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
